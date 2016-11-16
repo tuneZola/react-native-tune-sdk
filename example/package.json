@@ -1,0 +1,37 @@
+{
+  "name": "TuneSDK",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "fix-lint": "./node_modules/.bin/eslint . --fix .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "^0.37.0",
+    "react-native-tune-sdk": "git+https://github.com/tuneZola/react-native-tune-sdk.git"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "eslint": "~3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-config-tune": "^2.0.3",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-react": "~5.0.1",
+    "eslint-plugin-react-native": "^2.0.0",
+    "jest": "17.0.0",
+    "jest-react-native": "17.0.0",
+    "react-test-renderer": "15.3.2"
+  },
+  "description": "React Native TUNE SDK Bridge",
+  "main": "index.js",
+  "author": "Zolar",
+  "license": "MIT"
+}

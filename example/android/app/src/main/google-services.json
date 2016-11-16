@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "729535159148",
+    "project_id": "tune-sdk-react-native-demo-app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729535159148:android:3bd627604629d22a",
+        "android_client_info": {
+          "package_name": "com.demo.react.tune"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpSOhr0ZzT4Z7K5uCNXHkd6TTGBbRp0_0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

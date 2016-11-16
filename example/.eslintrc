@@ -1,0 +1,16 @@
+{
+  "extends": "tune",
+  "rules": {
+    // disable requiring trailing commas because it might be nice to revert to
+    // being JSON at some point, and I don't want to make big changes now.
+    "max-len": [2, 115, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": false
+    }],
+    "react/self-closing-comp": 0,
+    "import/no-unresolved": 0,
+  },
+  "plugins": [
+    "react-native"
+  ]
+}

@@ -1,0 +1,11 @@
+Mobile App Name: HasOffers Publisher Dashboard iOS
+Type: iOS
+Destination URL: http://www.hasoffers.com
+Advertiser ID:  173018
+App ID:  87788
+Package Name: com.hasoffers.publisher-application
+Conversion Key: 156b8c08da54005909bcb292bc457013Store App ID: 959037048 
+-------------------
+Need more help?
+- Developer Resources: https://developers.mobileapptracking.com/ios-sdk/
+- TUNE Support: http://help.tune.com/
