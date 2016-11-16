@@ -1,0 +1,35 @@
+{
+  "name": "react-native-tune-sdk",
+  "version": "1.0.0",
+  "description": "React Native TUNE sdk Bridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test yet!\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "react-native-tune-sdk"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "tune",
+    "sdk",
+    "tmc",
+    "analytics",
+    "tracking",
+    "bridge",
+    "events",
+    "screen",
+    "hits",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "author": "Zola Richards",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^15.4.0",
+    "react-native": "^0.37.0"
+  }
+}
