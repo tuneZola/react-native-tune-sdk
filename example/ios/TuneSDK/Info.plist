@@ -38,9 +38,9 @@
 	<key>Tune</key>
 	<dict>
 		<key>advertiserId</key>
-		<string>173018</string>
+		<string>YOUR_TUNE_ADVERTISER_ID</string>
 		<key>conversionKey</key>
-		<string>156b8c08da54005909bcb292bc457013</string>
+		<string>YOUR_TUNE_CONVERSION_KEY</string>
 	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

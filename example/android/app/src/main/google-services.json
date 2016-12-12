@@ -1,20 +1,20 @@
 {
   "project_info": {
-    "project_number": "729535159148",
-    "project_id": "tune-sdk-react-native-demo-app"
+    "project_number": "YOUR_GOOGLE_PLAY_SENDER_ID",
+    "project_id": "tune-sdk-react-native-demo-app" // REPLACE WITH YOUR EXAMPLE PROJECT ID
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:729535159148:android:3bd627604629d22a",
+        "mobilesdk_app_id": "",
         "android_client_info": {
-          "package_name": "com.demo.react.tune"
+          "package_name": "com.demo.react.tune" // REPLACE WITH YOUR EXAMPLE PACKAGE NAMESPAE
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBpSOhr0ZzT4Z7K5uCNXHkd6TTGBbRp0_0"
+          "current_key": ""
         }
       ],
       "services": {

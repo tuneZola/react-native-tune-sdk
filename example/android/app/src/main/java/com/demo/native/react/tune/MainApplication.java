@@ -18,9 +18,9 @@ public class MainApplication extends Application implements ReactApplication {
 
   private static Tune tuneInstance;
   // Google Sender Id if you integrated IAM for push notifications
-  private static final String tuneSenderId = "729535159148";
-  private static final String tuneAdvertiserId = "173018";
-  private static final String tuneConversionKey = "156b8c08da54005909bcb292bc457013";
+  private static final String tuneSenderId = "YOUR_GOOGLE_PLAY_SENDER_ID";
+  private static final String tuneAdvertiserId = "YOUR_TUNE_ADVERTISER_ID";
+  private static final String tuneConversionKey = "YOUR_TUNE_CONVERSION_KEY";
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
     @Override
