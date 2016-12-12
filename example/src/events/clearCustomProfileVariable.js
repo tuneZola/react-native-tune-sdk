@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -17,7 +17,7 @@ const ClearCustomProfileVariable = () => {
     };
 
     try {
-      MobileAppTracking.clearCustomProfileVariable(config);
+      TuneSDK.clearCustomProfileVariable(config);
       alert('Success calling clearCustomProfileVariable');
     } catch (e) {
       alert(`ERROR! calling clearCustomProfileVariable \n${e.message}`);

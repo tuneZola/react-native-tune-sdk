@@ -44,44 +44,36 @@ import SetCustomProfileGeolocation from './setCustomProfileGeolocation';
 import ClearCustomProfileVariable from './clearCustomProfileVariable';
 import ClearAllCustomProfileVariables from './clearAllCustomProfileVariables';
 
-
-const TuneSDKBridge = NativeModules.TuneSDKBridge;
-
-const Events = () => {
-  console.log('TuneSDKBridge => ', (typeof TuneSDKBridge));
-  console.log('TuneSDKBridge => ', TuneSDKBridge);
-
-  return (
-    <ScrollView style={styles.container}>
-      <Login />
-      <Registration />
-      <AddToCart />
-      <AddToWishList />
-      <AddedPaymentInfo />
-      <CheckoutInitiated />
-      <Purchase />
-      <Reservation />
-      <Search />
-      <ContentView />
-      <AchievementUnlocked />
-      <LevelAchieved />
-      <SpentCredits />
-      <TutorialComplete />
-      <Invite />
-      <Rated />
-      <Share />
-      <RegisterCustomProfileString />
-      <RegisterCustomProfileDate />
-      <RegisterCustomProfileNumber />
-      <RegisterCustomProfileGeolocation />
-      <SetCustomProfileStringValue />
-      <SetCustomProfileDate />
-      <SetCustomProfileNumber />
-      <SetCustomProfileGeolocation />
-      <ClearCustomProfileVariable />
-      <ClearAllCustomProfileVariables />
-    </ScrollView>
-  );
-};
+const Events = () => (
+  <ScrollView style={styles.container}>
+    <Login />
+    <Registration />
+    <AddToCart />
+    <AddToWishList />
+    <AddedPaymentInfo />
+    <CheckoutInitiated />
+    <Purchase />
+    <Reservation />
+    <Search />
+    <ContentView />
+    <AchievementUnlocked />
+    <LevelAchieved />
+    <SpentCredits />
+    <TutorialComplete />
+    <Invite />
+    <Rated />
+    <Share />
+    <RegisterCustomProfileString />
+    <RegisterCustomProfileDate />
+    <RegisterCustomProfileNumber />
+    <RegisterCustomProfileGeolocation />
+    <SetCustomProfileStringValue />
+    <SetCustomProfileDate />
+    <SetCustomProfileNumber />
+    <SetCustomProfileGeolocation />
+    <ClearCustomProfileVariable />
+    <ClearAllCustomProfileVariables />
+  </ScrollView>
+);
 
 export default Events;

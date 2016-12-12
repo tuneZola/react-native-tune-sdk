@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -18,7 +18,7 @@ const AddedPaymentInfo = () => {
     };
 
     try {
-      MobileAppTracking.addedPaymentInfo(config);
+      TuneSDK.addedPaymentInfo(config);
       alert('Success calling addedPaymentInfo');
     } catch (e) {
       alert(`ERROR! calling addedPaymentInfo \n${e.message}`);

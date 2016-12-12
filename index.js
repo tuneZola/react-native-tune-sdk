@@ -14,7 +14,7 @@ import {
 
 const TuneSDKBridge = NativeModules.TuneSDKBridge;
 
-class MobileAppTracking {
+class TuneSDK {
 
   /***
    * Track an share event
@@ -457,4 +457,4 @@ class MobileAppTracking {
   }
 }
 
-module.exports = MobileAppTracking;
+module.exports = TuneSDK;

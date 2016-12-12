@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -22,7 +22,7 @@ const RegisterCustomProfileGeolocation = () => {
     };
 
     try {
-      MobileAppTracking.registerCustomProfileGeolocation(config);
+      TuneSDK.registerCustomProfileGeolocation(config);
       alert('Success calling registerCustomProfileGeolocation');
     } catch (e) {
       alert(`ERROR! calling registerCustomProfileGeolocation \n${e.message}`);

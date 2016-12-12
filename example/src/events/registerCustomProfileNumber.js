@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -18,7 +18,7 @@ const RegisterCustomProfileNumber = () => {
     };
 
     try {
-      MobileAppTracking.registerCustomProfileNumber(config);
+      TuneSDK.registerCustomProfileNumber(config);
       alert('Success calling registerCustomProfileNumber');
     } catch (e) {
       alert(`ERROR! calling registerCustomProfileNumber \n${e.message}`);

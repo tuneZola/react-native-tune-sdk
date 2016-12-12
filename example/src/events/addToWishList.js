@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -37,7 +37,7 @@ const AddToWishList = () => {
     };
 
     try {
-      MobileAppTracking.addToWishList(config);
+      TuneSDK.addToWishList(config);
       alert('Success calling addToWishList');
     } catch (e) {
       alert(`ERROR! calling addToWishList \n${e.message}`);

@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -39,7 +39,7 @@ const CheckoutInitiated = () => {
     };
 
     try {
-      MobileAppTracking.checkoutInitiated(config);
+      TuneSDK.checkoutInitiated(config);
       alert('Success calling checkoutInitiated');
     } catch (e) {
       alert(`ERROR! calling checkoutInitiated \n${e.message}`);

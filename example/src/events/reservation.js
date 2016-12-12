@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -52,7 +52,7 @@ const Reservation = () => {
     };
 
     try {
-      MobileAppTracking.reservation(config);
+      TuneSDK.reservation(config);
       alert('Success calling reservation');
     } catch (e) {
       alert(`ERROR! calling reservation \n${e.message}`);

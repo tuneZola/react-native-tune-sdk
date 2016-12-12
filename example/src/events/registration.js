@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -27,7 +27,7 @@ const Registration = () => {
     };
 
     try {
-      MobileAppTracking.registration(config);
+      TuneSDK.registration(config);
       alert('Success calling registration');
     } catch (e) {
       alert(`ERROR! calling registration \n${e.message}`);

@@ -10,7 +10,6 @@
     <receiver android:name="com.tune.ma.push.service.TunePushReceiver" android:permission="com.google.android.c2dm.permission.SEND">
         <intent-filter>
             <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-            <category android:name="com.tune.hasoffers_network_dashboard" />
             <!-- To support pre-4.4 KitKat devices -->
             <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
         </intent-filter>

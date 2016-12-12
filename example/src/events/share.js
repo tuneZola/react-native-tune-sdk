@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -17,10 +17,10 @@ const Share = () => {
       userIdType: 'number',
     };
 
-    MobileAppTracking.share(config);
+    TuneSDK.share(config);
 
     try {
-      MobileAppTracking.share(config);
+      TuneSDK.share(config);
       alert('Success calling share');
     } catch (e) {
       alert(`ERROR! calling share \n${e.message}`);

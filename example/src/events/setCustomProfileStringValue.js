@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -18,7 +18,7 @@ const SetCustomProfileStringValue = () => {
     };
 
     try {
-      MobileAppTracking.setCustomProfileStringValue(config);
+      TuneSDK.setCustomProfileStringValue(config);
       alert('Success calling setCustomProfileStringValue');
     } catch (e) {
       alert(`ERROR! calling setCustomProfileStringValue \n${e.message}`);

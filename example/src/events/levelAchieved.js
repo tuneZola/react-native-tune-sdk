@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -19,7 +19,7 @@ const LevelAchieved = () => {
     };
 
     try {
-      MobileAppTracking.levelAchieved(config);
+      TuneSDK.levelAchieved(config);
       alert('Success calling levelAchieved');
     } catch (e) {
       alert(`ERROR! calling levelAchieved \n${e.message}`);

@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -22,7 +22,7 @@ const SetCustomProfileDate = () => {
     };
 
     try {
-      MobileAppTracking.setCustomProfileDate(config);
+      TuneSDK.setCustomProfileDate(config);
       alert('Success calling setCustomProfileDate');
     } catch (e) {
       alert(`ERROR! calling setCustomProfileDate \n${e.message}`);

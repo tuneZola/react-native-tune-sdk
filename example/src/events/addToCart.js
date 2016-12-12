@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -40,7 +40,7 @@ const AddToCart = () => {
     };
 
     try {
-      MobileAppTracking.addToCart(config);
+      TuneSDK.addToCart(config);
       alert('Success calling addToCart');
     } catch (e) {
       alert(`ERROR! calling addToCart \n${e.message}`);

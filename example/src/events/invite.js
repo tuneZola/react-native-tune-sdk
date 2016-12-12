@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -18,7 +18,7 @@ const Invite = () => {
     };
 
     try {
-      MobileAppTracking.invite(config);
+      TuneSDK.invite(config);
       alert('Success calling invite');
     } catch (e) {
       alert(`ERROR! calling invite \n${e.message}`);

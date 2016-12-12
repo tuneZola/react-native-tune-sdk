@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -49,7 +49,7 @@ const Search = () => {
     };
 
     try {
-      MobileAppTracking.search(config);
+      TuneSDK.search(config);
       alert('Success calling search');
     } catch (e) {
       alert(`ERROR! calling search \n${e.message}`);

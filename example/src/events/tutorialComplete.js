@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -18,7 +18,7 @@ const TutorialComplete = () => {
     };
 
     try {
-      MobileAppTracking.tutorialComplete(config);
+      TuneSDK.tutorialComplete(config);
       alert('Success calling tutorialComplete');
     } catch (e) {
       alert(`ERROR! calling tutorialComplete \n${e.message}`);

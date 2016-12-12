@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -18,10 +18,10 @@ const SpentCredits = () => {
       credits: 3,
     };
 
-    MobileAppTracking.spentCredits(config);
+    TuneSDK.spentCredits(config);
 
     try {
-      MobileAppTracking.spentCredits(config);
+      TuneSDK.spentCredits(config);
       alert('Success calling spentCredits');
     } catch (e) {
       alert(`ERROR! calling spentCredits \n${e.message}`);

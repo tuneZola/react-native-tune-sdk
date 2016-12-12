@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -20,7 +20,7 @@ const Rated = () => {
     };
 
     try {
-      MobileAppTracking.rated(config);
+      TuneSDK.rated(config);
       alert('Success calling rated');
     } catch (e) {
       alert(`ERROR! calling rated \n${e.message}`);

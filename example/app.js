@@ -25,7 +25,7 @@ const App = () => (
         source={tuneLogo}
       />
       <Text style={styles.welcome}>
-        Welcome to React Native iPhone Edision!
+        Welcome to React Native iPhone Edition!
       </Text>
       <Image
         style={styles.react}

@@ -6,7 +6,7 @@ import {
   Button,
 } from 'react-native';
 
-import MobileAppTracking from 'react-native-tune-sdk';
+import TuneSDK from 'react-native-tune-sdk';
 
 import styles from './styles';
 
@@ -27,7 +27,7 @@ const Login = () => {
     };
 
     try {
-      MobileAppTracking.login(config);
+      TuneSDK.login(config);
       alert('Success calling login');
     } catch (e) {
       alert(`ERROR! calling login \n${e.message}`);
