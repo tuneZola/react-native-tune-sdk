@@ -29,7 +29,7 @@
   "author": "Zola Richards",
   "license": "ISC",
   "devDependencies": {
-    "react": "^15.4.0",
-    "react-native": "^0.37.0"
+    "react": "^15.4.2",
+    "react-native": "^0.40.0"
   }
 }

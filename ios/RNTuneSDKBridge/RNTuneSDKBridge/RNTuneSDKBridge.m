@@ -20,8 +20,8 @@
 #import "TunePowerHookExperimentDetails.h"
 #import "TuneInAppMessageExperimentDetails.h"
 
-#import "RCTLog.h"
-#import "RCTConvert.h"
+#import <React/RCTLog.h>
+#import <React/RCTConvert.h>
 #import "RNTuneSDKBridge.h"
 
 @implementation RNTuneSDKBridge {}
